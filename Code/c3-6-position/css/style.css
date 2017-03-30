@@ -1,0 +1,43 @@
+div > div {
+  width: 100px;
+  padding: 5px;
+}
+.cont {
+  height: 500px;
+}
+.staticclass {
+  position: static;
+  left: 10px;
+  top: 10px;
+  border: 1px solid lightgrey;
+  background-color: lightgreen;
+}
+.relativeclass {
+  position: relative;
+  left: 10px;
+  top: 10px;
+  border: 1px solid lightgrey;
+  background-color: yellow;
+}
+.fixedclass {
+  position: fixed;
+  top: 20px;
+  left: 200px;
+  border: 1px solid lightgrey;
+  background-color: lightblue;
+}
+.divfixpos {
+  top: 20px;
+  left: 400px;
+  width: 200px
+}
+.divrelpos {
+  width: 210px
+}
+.absoluteclass {
+  position: absolute;
+  top: 60px;
+  left: 200px;
+  border: 1px solid lightgrey;
+  background-color: Orange;
+}

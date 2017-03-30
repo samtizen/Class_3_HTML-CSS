@@ -1,0 +1,19 @@
+div {
+  margin: 5px;
+  padding: 5px;
+  width: 200px;
+  border: 1px solid grey;
+}
+.leftfloat {
+  float: left;
+  background-color: lightgreen;
+}
+.rightfloat {
+  float: right;
+  background-color: orange;
+}
+#recover {
+  /*clear: left | right | both */
+  width: 250px;
+  background-color: yellow;
+}

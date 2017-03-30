@@ -1,0 +1,42 @@
+.blockclass,.inlineblockclass,.inlineclass,.tableclass {
+  margin: 10px;
+}
+.blockclass > div {
+  display: block;
+  padding: 5px;
+  width: 200px;
+  border: 1px solid grey;
+  background-color: lightgreen;
+}
+.inlineblockclass > div {
+  display: inline-block;
+  padding: 5px;
+  width: 200px;
+  border: 1px solid grey;
+  background-color: lightblue;
+}
+.inlineclass > div {
+  display: inline;
+  padding: 5px;
+  width: 200px;
+  border: 1px solid grey;
+  background-color: orange;
+}
+.tableclass > div {
+  display: table;
+  padding: 5px;
+  width: 200px;
+  border: 1px solid grey;
+  background-color: yellow;
+}
+.tableclass > div > div {
+  display: table-row;
+}
+.tableclass > div > div > div {
+  display: table-cell;
+  padding: 5px;
+  height: 50px;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid grey;
+}

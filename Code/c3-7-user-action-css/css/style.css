@@ -1,0 +1,26 @@
+a {
+  padding: 10px;
+}
+
+a:link {
+  color: black;
+  font-weight: bold;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: orange;
+}
+
+a:focus {
+  background-color: blue;
+}
+
+a:active {
+  font-weight: bold;
+  background-color: green;
+}

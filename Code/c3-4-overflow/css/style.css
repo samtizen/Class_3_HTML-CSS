@@ -1,0 +1,18 @@
+div {
+  width: 100px;
+  height: 45px;
+  margin: 5px;
+}
+div > div {
+  background: lightgreen;
+  border: 1px solid lightgrey;
+}
+.divoverflow {
+  overflow: hidden;
+}
+.divoverflowsc {
+  overflow: scroll;
+}
+.divoverflowau {
+  overflow: auto;
+}

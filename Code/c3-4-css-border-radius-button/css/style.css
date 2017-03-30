@@ -1,0 +1,12 @@
+.btn {
+  line-height: 40px;
+  width: 100px;
+  text-align: center;
+  border-radius: 15px 5px 15px 5px;
+  border: 1px solid brown;
+  background-color: orange;
+}
+.btn:hover {
+  background-color: grey;
+  cursor: pointer;
+}

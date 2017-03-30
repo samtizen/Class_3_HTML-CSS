@@ -1,0 +1,15 @@
+body {
+  background-color: blue;
+}
+.classorange {
+  background-color: orange;
+}
+.classblack {
+  background-color: black;
+}
+.classgrey{
+  background-color: grey;  
+}
+#mydiv {
+  background-color: red;
+}

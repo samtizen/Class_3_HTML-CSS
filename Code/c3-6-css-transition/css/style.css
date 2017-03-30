@@ -1,0 +1,31 @@
+.vertrans {
+  width: 200px;
+  height: 20px;
+  padding: 5px;
+  background: orange;
+  transition: height 1s;
+}
+.vertrans:hover {
+  height: 100px;
+}
+.hortrans {
+  width: 200px;
+  height: 20px;
+  padding: 5px;
+  background: lightgreen;
+  transition: width 1s;
+}
+.hortrans:hover {
+  width: 100px;
+}
+.verhortrans {
+  width: 200px;
+  height: 20px;
+  padding: 5px;
+  background: lightblue;
+  transition: height 1s, width 1s;
+}
+.verhortrans:hover {
+  height: 100px;
+  width: 100px;
+}

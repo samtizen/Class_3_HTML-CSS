@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>C3.6 Position</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="cont">
+  <!--Нормальное положение-->
+  <div class="staticclass">
+    staticclass
+  </div>
+  <!--Относительно своего нормального положения-->
+  <div class="relativeclass">
+    relativeclass
+  </div>
+  <div class="relativeclass">
+    relativeclass
+  </div>
+  <div class="staticclass">
+    staticclass
+  </div>
+  <!--Фиксированное на экране-->
+  <div class="fixedclass">
+    fixedclass
+  </div>
+  <!--Положение относительно позиционнированного родителя или body-->
+  <div class="absoluteclass">
+    absoluteclass 1
+  </div>
+  <div class="fixedclass divfixpos">
+    fixedclass 2 -> absoluteclass 2 
+    <div class="absoluteclass">
+      absoluteclass 2
+    </div>
+  </div>
+  <div class="relativeclass divrelpos">
+    relativeclass 3 -> absoluteclass 3 
+    <div class="absoluteclass">
+      absoluteclass 2
+    </div>
+  </div>
+</div>
+  
+  
+</body>
+</html>

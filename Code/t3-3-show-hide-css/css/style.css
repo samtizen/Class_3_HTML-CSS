@@ -1,0 +1,17 @@
+div {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid lightgrey;
+}
+#btn:hover {
+  cursor: pointer;
+}
+#btn:hover ~ #msg {
+  display: block;
+  background-color: lightgreen;
+  font-weight: bold;
+  color: red;
+}
+#msg {
+  display: none;
+}

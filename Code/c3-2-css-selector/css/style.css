@@ -1,0 +1,19 @@
+div {
+  color: red;
+  font-weight: bold;
+}
+div > div > div {
+  color: orange;
+}
+.green {
+  color: green;
+}
+.child > div {
+  color: black;
+}
+#divid {
+  color: blue;
+}
+div[yourattr="has"] {
+  color: brown;
+}

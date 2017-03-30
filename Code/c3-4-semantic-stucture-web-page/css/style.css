@@ -1,0 +1,38 @@
+header, nav, nav ul li, section, article, aside, footer {
+  border: 1px solid lightgrey;
+  padding: 10px;
+}
+
+header {
+  background-color: lightblue;
+}
+nav {
+  padding: 0px;
+}
+ul {
+  left: 0px;
+}
+nav ul li {
+  display: inline;
+  background-color: orange;
+}
+section {
+  float: left;
+  width: 65%;
+  background-color: lightgrey;
+}
+article {
+  border: 1px solid grey;
+  background-color: yellow;
+  margin: 5px;
+}
+aside {
+  float: right;
+  width: 30%;
+  height: 100px;
+  background-color: lightgreen;
+}
+footer {
+  background-color: lightblue;
+  clear: both;
+}

@@ -1,0 +1,24 @@
+.divfloat {
+  float: left;
+}
+.divclass1 {
+  display: block;
+  width: 200px;
+  border: 10px solid orange;
+  padding: 0px;
+  margin: 0px;
+}
+.divclass2 {
+  display: block;
+  width: 200px;
+  border: 10px solid green;
+  padding: 10px;
+  margin: 0px;
+}
+.divclass3 {
+  display: block;
+  width: 200px;
+  border: 10px solid blue;
+  padding: 0px;
+  margin: 10px;
+}
